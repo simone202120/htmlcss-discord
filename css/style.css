@@ -11,7 +11,7 @@ body{
 
 header{
     display: flex;
-    background-color: #385496;
+    background-color: #0c64c8;
     height: 40px;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,7 @@ a{
 }
 
 .black{
-    background-color: black;
+    background-color: #131516;
     height: 500px;
     display: flex;
 
@@ -146,34 +146,27 @@ a{
  
 .social{
     width: 30%;
-    background-color: rgb(243, 124, 144);
-    border:1px dashed black;
-
 }
 
 .info{
-    width:17.4%;
-    background-color: aquamarine;
-    border:1px dashed rgb(255, 255, 255);
+    width: 17.4%;
 }
 
 .chiusura{
-    height: 40px;
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-    background-color: black;
+    height: 100px;
+    background-color:#131516;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
 
 }
 
 .barra{
-    height: 70%;
+    border-top: solid 2px #313654;
+    height: 100%;
     width: 70%;
-    background-color: aquamarine;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
 
 }
@@ -186,15 +179,65 @@ a{
 }
 
 button{
-    padding: 5px;
+    padding: 7px;
     background-color: white;
     border-radius: 25px;
     font-size: 10px;
     border:none;
+    font-weight: bold;
 }
 
 .box2 button{
     background-color:#445385 ;
+    font-weight: bold;
     color: white;
     margin-top: 50px;
+}
+
+.viola{
+    color:#445281 ;
+}
+
+.boxFooter div{
+    padding: 20px;
+}
+
+.social span{
+    color:white;
+    
+}
+
+.social img{
+    height: 20px;
+    width: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.social i{
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+}
+
+.titolo{
+    color:#445385;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+ul li{
+    color: white;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.registra{
+    background-color:#445385;
+    color: white;
+    font-weight: bold;
+}
+
+.barra div{
+    margin-top: 10px;;
 }
