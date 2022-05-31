@@ -6,7 +6,7 @@
 
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, sans-serif;
-
+    
 }
 
 header{
@@ -103,6 +103,7 @@ a{
 
  p{
      margin-top: 30px;
+     line-height: 1.5em;
  }
 
  #gray{
@@ -132,7 +133,7 @@ a{
 
 .black{
     background-color: #131516;
-    height: 500px;
+    max-height: 500px;
     display: flex;
 
 }
@@ -142,6 +143,7 @@ a{
     height:90%;
     width: 70%;
     margin: auto;
+    margin-top: 35px;
 }
  
 .social{
@@ -179,7 +181,7 @@ a{
 }
 
 button{
-    padding: 7px;
+    padding: 10px;
     background-color: white;
     border-radius: 25px;
     font-size: 10px;
