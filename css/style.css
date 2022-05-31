@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+header{
+    display: flex;
+    background-color: #385496;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+    height: 25px;
+}
+
+.link{
+    width: 40%;
+    height: 25px;
+    text-align: center;
+}
+
+a{
+    color:white;
+    margin-right: 20px;
+}
+
+.login{
+    width: 15%;
+    height: 25px;
+    text-align: right;
+}
+
+.sezione1{
+    height: 400px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+
+}
+ .box{
+     width: 50%;
+     height: 80%;
+     margin: auto;
+     color: white;
+     text-align: center;
+ }
+
+ .box p{
+     margin-bottom: 20px;
+ }
+
+ .button-nero{
+     background-color: black;
+     color: white;
+     margin-left: 10px;
+ }
+
+ .box h1{
+     margin-top: 100px;
+     margin-bottom: 20px;
+ }
+
+ .sezione2{
+     height: 400px;
+     background-color: white;
+     margin: auto;
+     display: flex;
+ }
+
+ .box1{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+ }
+    
+
+ .immagine{
+     height:100%;
+     width: 60%;
+     background-size: cover;
+ }
+
+ .immagine img{
+     width: 100%;
+     height: 100%;
+ }
+
+ .testo{
+     height: 100%;
+     width: 40%; 
+     padding: 30px;
+ }
+
+ p{
+     margin-top: 30px;
+ }
+
+ #gray{
+     background-color: lightgray;
+ }
+ .boxgray{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+     flex-direction: row-reverse;
+ }
+                                                      
+ .sezione3{
+     height: 1000px;
+     background-color:lightgray;
+     display: flex;
+     
+ }
+
+.box2{
+    height: 80%;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+    height: 500px;
+    display: flex;
+
+}
+
+.boxFooter{
+    display: flex;
+    height:90%;
+    width: 70%;
+    margin: auto;
+}
+ 
+.social{
+    width: 30%;
+    background-color: rgb(243, 124, 144);
+    border:1px dashed black;
+
+}
+
+.info{
+    width:17.4%;
+    background-color: aquamarine;
+    border:1px dashed rgb(255, 255, 255);
+}
+
+.chiusura{
+    height: 40px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.barra{
+    height: 70%;
+    width: 70%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ 
+.barranera{
+    width: 60%;
+    background-color: black;
+    height: 8px;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 10px;
+    border:none;
+}
+
+.box2 button{
+    background-color:#445385 ;
+    color: white;
+    margin-top: 50px;
+}
